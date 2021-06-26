@@ -83,7 +83,23 @@ body {
 }
 
 .button:hover {
-  background: rgb(101, 160, 139);
+  background: rgb(197, 18, 18);
+}
+
+.button2 {
+  background-color: hsla(159, 36%, 57%, 1);
+  color: var(--text-color-light);
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font: 500 1rem var(--body-font);
+  transition: background 0.3s;
+}
+
+.button2:hover {
+  background: rgb(55, 185, 83);
 }
 
 .divider-1 {
